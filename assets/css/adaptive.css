@@ -101,13 +101,87 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .title_home{
+    display: inline-block;
+    transform: translate(15%, -105%);
+  }
+  .skill{
+    transform: translate(0, 20%);
+  }
   .cont_banner{
     max-width: 640px;
   }
   .cont_us{
-    max-width: 540px;
+    max-width: 640px;
   }
   .text_info_mini{
-    width: 50%;
+    width: 65%;
+  }
+  .commitment_info_mini img{
+    float: none;
+    margin-bottom: 15px;
+  }
+  .btn_info_mini{
+    transform: translate(0, 0);
+  }
+  .gallery_item{
+    float: none;
+    width: 100%;
+  }
+  .bottom_menu{
+    max-width: 640px;
+  }
+  .title_commitment{
+    font-size: 2em;
+  }
+  .text_commitment{
+    font-size: 1.5em;
+  }
+  .crct_i{
+    margin-top: -4.5%;
+  }
+  .crct_feature{
+    margin-left: 90px;
+  }
+  .feature_mini_blocks{
+    width: 55%;
+    font-size: 2em;
+    margin: 0 auto;
+  }
+  .feature_mini_blocks img{
+    width: 10%;
+  }
+  .text_feature_mini{
+    font-size: 1em;
+    line-height: 33px;
+  }
+  .cont_start{
+    transform: translate(0, 10%);
+  }
+  .title_start{
+    font-size: 1.575em;
+    padding-bottom: 15px;
+  }
+  .text_start{
+    font-size: 1.5em;
+    padding-bottom: 15px;
+  }
+  .progress-bar-name{
+    font-size: 1.2em;
+  }
+  .persents{
+    font-size: 1.2em;
+  }
+  .soc_item{
+    font-size: 2em;
+  }
+  .plans{
+    margin: 0 auto;
+  }
+  .text_post_first{
+    font-size: 1em;
+  }
+  .text_post_second{
+    font-size: 1.2em;
   }
 }
